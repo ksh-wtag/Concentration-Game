@@ -13,10 +13,12 @@
 		E75BCE2A2BF3329700712F48 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E75BCE292BF3329700712F48 /* Base */; };
 		E75BCE2C2BF3329900712F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75BCE2B2BF3329900712F48 /* Assets.xcassets */; };
 		E75BCE2F2BF3329900712F48 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E75BCE2E2BF3329900712F48 /* Base */; };
+		E75BCE372BF336CF00712F48 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75BCE362BF336CF00712F48 /* Cards.swift */; };
+		E75BCE392BF3372600712F48 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75BCE382BF3372600712F48 /* Concentration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E75BCE1F2BF3329700712F48 /* StanfordTutorial2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordTutorial2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75BCE1F2BF3329700712F48 /* Concentration-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concentration-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75BCE222BF3329700712F48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E75BCE242BF3329700712F48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E75BCE262BF3329700712F48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		E75BCE2B2BF3329900712F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E75BCE2E2BF3329900712F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E75BCE302BF3329900712F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75BCE362BF336CF00712F48 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		E75BCE382BF3372600712F48 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		E75BCE202BF3329700712F48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E75BCE1F2BF3329700712F48 /* StanfordTutorial2.app */,
+				E75BCE1F2BF3329700712F48 /* Concentration-game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +67,8 @@
 				E75BCE2B2BF3329900712F48 /* Assets.xcassets */,
 				E75BCE2D2BF3329900712F48 /* LaunchScreen.storyboard */,
 				E75BCE302BF3329900712F48 /* Info.plist */,
+				E75BCE362BF336CF00712F48 /* Cards.swift */,
+				E75BCE382BF3372600712F48 /* Concentration.swift */,
 			);
 			path = StanfordTutorial2;
 			sourceTree = "<group>";
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E75BCE1E2BF3329700712F48 /* StanfordTutorial2 */ = {
+		E75BCE1E2BF3329700712F48 /* Concentration-game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E75BCE332BF3329900712F48 /* Build configuration list for PBXNativeTarget "StanfordTutorial2" */;
+			buildConfigurationList = E75BCE332BF3329900712F48 /* Build configuration list for PBXNativeTarget "Concentration-game" */;
 			buildPhases = (
 				E75BCE1B2BF3329700712F48 /* Sources */,
 				E75BCE1C2BF3329700712F48 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = StanfordTutorial2;
+			name = "Concentration-game";
 			productName = StanfordTutorial2;
-			productReference = E75BCE1F2BF3329700712F48 /* StanfordTutorial2.app */;
+			productReference = E75BCE1F2BF3329700712F48 /* Concentration-game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E75BCE1A2BF3329700712F48 /* Build configuration list for PBXProject "StanfordTutorial2" */;
+			buildConfigurationList = E75BCE1A2BF3329700712F48 /* Build configuration list for PBXProject "Concentration-game" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E75BCE1E2BF3329700712F48 /* StanfordTutorial2 */,
+				E75BCE1E2BF3329700712F48 /* Concentration-game */,
 			);
 		};
 /* End PBXProject section */
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E75BCE272BF3329700712F48 /* ViewController.swift in Sources */,
+				E75BCE392BF3372600712F48 /* Concentration.swift in Sources */,
 				E75BCE232BF3329700712F48 /* AppDelegate.swift in Sources */,
 				E75BCE252BF3329700712F48 /* SceneDelegate.swift in Sources */,
+				E75BCE372BF336CF00712F48 /* Cards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +352,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E75BCE1A2BF3329700712F48 /* Build configuration list for PBXProject "StanfordTutorial2" */ = {
+		E75BCE1A2BF3329700712F48 /* Build configuration list for PBXProject "Concentration-game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E75BCE312BF3329900712F48 /* Debug */,
@@ -353,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E75BCE332BF3329900712F48 /* Build configuration list for PBXNativeTarget "StanfordTutorial2" */ = {
+		E75BCE332BF3329900712F48 /* Build configuration list for PBXNativeTarget "Concentration-game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E75BCE342BF3329900712F48 /* Debug */,
